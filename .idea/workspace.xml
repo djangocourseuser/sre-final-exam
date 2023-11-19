@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="845a6946-9265-4b0b-8ef5-11fa26040d55" name="Changes" comment="t" />
+    <list default="true" id="845a6946-9265-4b0b-8ef5-11fa26040d55" name="Changes" comment="t">
+      <change afterPath="$PROJECT_DIR$/web/static/img/loginImg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/djangoapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/djangoapp/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
@@ -26,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SRE\Final Exam\prometheus-django-demo\web\static\img" />
       <recent name="D:\SRE\Final Exam\prometheus-django-demo\terraform-conf" />
     </key>
   </component>
@@ -39,7 +52,7 @@
       <updated>1700369258766</updated>
       <workItem from="1700369260104" duration="96000" />
       <workItem from="1700369372346" duration="12362000" />
-      <workItem from="1700386032217" duration="2322000" />
+      <workItem from="1700386032217" duration="6163000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1700388127425</created>

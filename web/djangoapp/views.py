@@ -3,6 +3,7 @@ import time
 
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.shortcuts import render
 
 from .metrics import (errors, generate_requests_metric, last_visit, latency,
                       latency2, pending_requests, status)
@@ -11,7 +12,7 @@ from .metrics import (errors, generate_requests_metric, last_visit, latency,
 def home(request):
     generate_requests_metric(request, "/")
     last_visit.labels(endpoint="/").set(time.time())
-    return HttpResponse("Prometheus Client in Django App Demo!")
+    return render(request, 'index.html')
 
 
 @csrf_exempt
