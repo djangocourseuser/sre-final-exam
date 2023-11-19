@@ -1,0 +1,16 @@
+stages:
+  - deploy
+
+deploy-job:
+  stage: deploy
+  only:
+    - main
+  script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan 54.204.170.51 >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - ssh ubuntu@your.ec2.instance.ip.address "sudo apt-get update && sudo apt-get install -y docker.io && sudo systemctl start docker && sudo systemctl enable docker && sudo curl -L 'https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)' -o /usr/local/bin/docker-compose && sudo chmod +x /usr/local/bin/docker-compose && cd /home/ubuntu && rm -rf sre-final-exam && git clone https://oauth2:glpat-s49rMox_Y1TsfffM2QDa@gitlab.com/rsefinal/sre-final-exam.git && cd sre-final-exam && sudo docker-compose up -d"
