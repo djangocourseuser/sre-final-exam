@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.urls import include, path
 
+from . import settings
 from .views import counter, enum, gauge, histogram, home, summary
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("", include("django_prometheus.urls")),
@@ -26,3 +28,6 @@ urlpatterns = [
     path("histogram/", histogram, name="histogram"),
     path("enum/", enum, name="enum"),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
