@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="{% static "/css/login.css" %}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="section two-columns">
+        <div class="column1 centered-content">
+            <div class="container">
+                <div class="sct1-h1">Войти в аккаунт</div>
+                <form class="form">
+                    <div class="input-block email">
+                        <label class="form-hite">E-mail</label>
+                        <input class="input" type="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="input-block password">
+                        <label class="form-hite">Пароль</label>
+                        <input class="input" type="password" placeholder="Ваш пароль">
+                    </div>
+                    <div class="btm">
+                        <div class="confirmation-toggle">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="sct1-h2">Запомнить меня</span>
+                        </div>
+                        <div class="forgot-passw">
+                            <a href="#" class="sct1-h2">Забыли пароль?</a>
+                        </div>
+                    </div>
+                    <input type="submit" class="send-form-btn" value="Войти">
+                </form>
+                <div class="dne">
+                    <div class="dne-txt1">Нет аккаунта?<span><a href="#" class="dne-txt2">Создать</a></span></div>
+                </div>
+                <div class="link2-centered-content">
+                    <a class="link2" href="#">
+                        <div class="link2-txt">На главную</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18L15 12L9 6" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="column2">
+            <img src="{% static "/img/loginImg.png" %}">
+        </div>
+    </div>
+</body>
+
+</html>
