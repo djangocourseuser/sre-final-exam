@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845a6946-9265-4b0b-8ef5-11fa26040d55" name="Changes" comment="t">
-      <change afterPath="$PROJECT_DIR$/web/static/img/loginImg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/djangoapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/djangoapp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,7 +51,8 @@
       <updated>1700369258766</updated>
       <workItem from="1700369260104" duration="96000" />
       <workItem from="1700369372346" duration="12362000" />
-      <workItem from="1700386032217" duration="6163000" />
+      <workItem from="1700386032217" duration="9301000" />
+      <workItem from="1700395489750" duration="9309000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1700388127425</created>
@@ -61,7 +61,42 @@
       <option name="project" value="LOCAL" />
       <updated>1700388127425</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ front">
+      <created>1700392429263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700392429263</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+ front">
+      <created>1700392910086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700392910086</updated>
+    </task>
+    <task id="LOCAL-00004" summary="static (front)">
+      <created>1700393994426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700393994426</updated>
+    </task>
+    <task id="LOCAL-00005" summary="static (front)">
+      <created>1700396443552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700396443552</updated>
+    </task>
+    <task id="LOCAL-00006" summary="t">
+      <created>1700409442898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700409442898</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,8 +112,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ front" />
+    <MESSAGE value="static (front)" />
     <MESSAGE value="t" />
     <option name="LAST_COMMIT_MESSAGE" value="t" />
   </component>
